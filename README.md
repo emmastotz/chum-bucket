@@ -1,2 +1,2 @@
 # chum-bucket
-Find the right chum so you don't get catfished ever again.
+Find the right chum. Don't get catfished.
