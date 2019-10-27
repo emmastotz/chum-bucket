@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <title>Chum Bucket</title>
+
+		<!-- Link to CSS Reset -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Link to Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Link to CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body class="quiz">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="home.html">
+        <img src="assets/images/chum-bucket.svg" width="30" height="30" alt="chum bucket" class="d-inline-block align-top">
+        <strong style="color:seashell">| Chum Bucket</strong>
+      </a>
+    </nav>
+
+    <div class="container quiz-container">
+      <h5>Name (Required)</h5>
+      <input type="text" id="name" class="form-control" required>
+      <h5>Link to Photo Image (Required)</h5>
+      <input type="text" id="photo" class="form-control" required>
+
+      <hr>
+
+      <h5>Question 1</h5>
+      <div class="form-group">
+        <label for="question1">Your mind is always buzzing with unexplored ideas and plans.</label>
+        <select class="form-control valid" id="question1">
+          <!--each option contains a value except the default blank choice-->
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 2</h5>
+      <div class="form-group">
+        <label for="question2">Generally speaking, you rely more on your experience than your imagination.</label>
+        <select class="form-control valid" id="question2">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 3</h5>
+      <div class="form-group">
+        <label for="question3">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+        <select class="form-control valid" id="question3">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 4</h5>
+      <div class="form-group">
+        <label for="question4">You rarely do something just out of sheer curiosity.</label>
+        <select class="form-control valid" id="question4">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 5</h5>
+      <div class="form-group">
+        <label for="question5">People can rarely upset you.</label>
+        <select class="form-control valid" id="question5">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 6</h5>
+      <div class="form-group">
+        <label for="question6">It is often difficult for you to relate to other people’s feelings.</label>
+        <select class="form-control valid" id="question6">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 7</h5>
+      <div class="form-group">
+        <label for="question7">In a discussion, truth should be more important than people’s sensitivities.</label>
+        <select class="form-control valid" id="question7">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 8</h5>
+      <div class="form-group">
+        <label for="question8">You rarely get carried away by fantasies and ideas.</label>
+        <select class="form-control valid" id="question8">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 9</h5>
+      <div class="form-group">
+        <label for="question9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
+        </label>
+        <select class="form-control valid" id="question9">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <h5>Question 10</h5>
+      <div class="form-group">
+        <label for="question10">You feel more energetic after spending time with a group of people.</label>
+        <select class="form-control valid" id="question10">
+          <option value="" selected disabled>Select an Answer</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3 (Neutral)</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>      
+
+      <!-- Submit Button -->
+      <div>
+        <button type="submit" class="btn btn-secondary btn-block" id="submit">Reel It In</button>
+      </div>
+
+    </div>
+
+    <!-- LINKS TO JAVASCRIPT -->
+    <!-- Link to Bootstrap Javascript CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Link to jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Link to Javascript Logic -->
+    <script type="text/javascript" src="#"></script>
+  </body>
+</html>
