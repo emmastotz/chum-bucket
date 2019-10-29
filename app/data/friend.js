@@ -1,6 +1,6 @@
 var friendOptions = [{
   "name": "SpongeBob SquarePants",
-  "photo": "..public/images/spongebob.png",
+  "photo": "../public/assets/images/spongebob.png",
   "scores": [
       5,
       1,
@@ -16,7 +16,7 @@ var friendOptions = [{
 },
 {
   "name": "Patrick Star",
-  "photo": "..public/images/patrickstar.png",
+  "photo": "../public/assets/images/patrickstar.png",
   "scores": [
       1,
       5,
@@ -32,7 +32,7 @@ var friendOptions = [{
 },
 {
   "name": "Squidward Tentacles",
-  "photo": "..public/images/squidward.png",
+  "photo": "../public/assets/images/squidward.png",
   "scores": [
       2,
       3,
@@ -48,7 +48,7 @@ var friendOptions = [{
 },
 {
   "name": "Plankton",
-  "photo": "..public/images/plankton.png",
+  "photo": "../public/assets/images/plankton.png",
   "scores": [
       3,
       3,
@@ -64,7 +64,7 @@ var friendOptions = [{
 },
 {
   "name": "Mr. Krabs",
-  "photo": "..public/images/mrkrabs.png",
+  "photo": "../public/assets/images/mrkrabs.png",
   "scores": [
       3,
       3,
@@ -79,8 +79,8 @@ var friendOptions = [{
   ]
 },
 {
-  "name": "Plankton",
-  "photo": "..public/images/sandycheeks.png",
+  "name": "Sandy Cheeks",
+  "photo": "../public/assets/images/sandycheeks.png",
   "scores": [
       4,
       3,
