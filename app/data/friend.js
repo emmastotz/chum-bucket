@@ -1,6 +1,6 @@
 var friendOptions = [{
   "name": "SpongeBob SquarePants",
-  "photo": "../public/assets/images/spongebob.png",
+  "photo": "./public/assets/.images/spongebob.png",
   "scores": [
       5,
       1,
