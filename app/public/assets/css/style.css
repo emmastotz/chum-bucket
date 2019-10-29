@@ -14,7 +14,7 @@ body.quiz {
   background-color: rgb(11, 82, 122);
   color: seashell;
   padding: 0;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 5px 5px 5px black;
 }
 
 .btn {
@@ -28,7 +28,7 @@ nav.navbar {
   background-color: rgb(11, 82, 122) !important;
   margin-bottom: 1.5%;
   color: seashell;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 5px 5px 5px black;
 }
 
 .footer-quiz {
@@ -68,4 +68,8 @@ a:active {
 .footer {
   color: seashell;
   text-align: center;
+}
+
+div.modal {
+  color: black;
 }
