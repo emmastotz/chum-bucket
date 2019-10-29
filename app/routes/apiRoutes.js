@@ -12,7 +12,6 @@ module.exports = function(app) {
   });
   
   app.post("/api/friends", function(req, res) {
-    friendOptions.push(req.body);
     
     var userScore = req.body.scores;
     var results = [];
@@ -27,13 +26,10 @@ module.exports = function(app) {
       };
       results.push(difference);
     };
-    console.log(results);
 
     for (var i = 0; i < results.length; i++) {
-      console.log(results[i]);
       if (results[i] <= results[match]) {
         match = i;
-        console.log(match);
       }
     };
 
@@ -42,5 +38,6 @@ module.exports = function(app) {
     console.log(bestFriend);
 
     res.json(bestFriend);
+    friendOptions.push(req.body);
   });
 };
