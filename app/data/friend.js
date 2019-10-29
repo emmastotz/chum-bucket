@@ -1,6 +1,6 @@
 var friendOptions = [{
   "name": "SpongeBob SquarePants",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/images/spongebob.png",
+  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/spongebob.png",
   "scores": [
       5,
       1,
@@ -16,7 +16,7 @@ var friendOptions = [{
 },
 {
   "name": "Patrick Star",
-  "photo": "https://en.wikipedia.org/wiki/File:Patrick_Star.svg",
+  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/patrickstar.png",
   "scores": [
       1,
       5,
@@ -32,7 +32,7 @@ var friendOptions = [{
 },
 {
   "name": "Squidward Tentacles",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/images/squidward.png",
+  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/squidward.png",
   "scores": [
       2,
       3,
@@ -48,7 +48,7 @@ var friendOptions = [{
 },
 {
   "name": "Plankton",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/images/plankton.png",
+  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/plankton.png",
   "scores": [
       3,
       3,
@@ -64,7 +64,7 @@ var friendOptions = [{
 },
 {
   "name": "Mr. Krabs",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/images/mrkrabs.png",
+  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/mrkrabs.png",
   "scores": [
       3,
       3,
@@ -80,7 +80,7 @@ var friendOptions = [{
 },
 {
   "name": "Sandy Cheeks",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/images/sandycheeks.png",
+  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/sandycheeks.png",
   "scores": [
       4,
       3,
@@ -93,7 +93,6 @@ var friendOptions = [{
       5,
       5
   ]
-}
-];
+}];
 
 module.exports = friendOptions;

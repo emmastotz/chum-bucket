@@ -8,11 +8,11 @@
     <title>Chum Bucket</title>
 
 		<!-- Link to CSS Reset -->
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <!-- Link to Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Link to CSS Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     
   </head>
 
@@ -21,7 +21,7 @@
     <!-- NAV BAR -->
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="home">
-        <img src="assets/images/chum-bucket.svg" width="30" height="30" alt="chum bucket" class="d-inline-block align-top">
+        <img src="assets/img/chum-bucket.svg" width="30" height="30" alt="chum bucket" class="d-inline-block align-top">
         <strong style="color:seashell">| Chum Bucket</strong>
       </a>
     </nav>
@@ -252,11 +252,9 @@
           if (data) {
             $("#friendName").text(data.name);
             $("#friendPic").attr("src", data.photo);
-            console.log(data.photo);
           };
         });
 
-        $("#friendModal").modal("toggle");
         $("#name").val("");
         $("#photo").val("");
         $("#question1").val("");
@@ -272,7 +270,6 @@
       
       } else {
         alert("You missed a question.");
-        $("#friendModal").modal("hide");
       };
     });
     </script>    
