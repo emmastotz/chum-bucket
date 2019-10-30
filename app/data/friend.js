@@ -1,6 +1,6 @@
 var friendOptions = [{
   "name": "SpongeBob SquarePants",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/spongebob.png",
+  "photo": "https://vignette.wikia.nocookie.net/simpsons/images/a/ae/SpongeBob_Better.png/revision/latest?cb=20190123071123",
   "scores": [
       5,
       1,
@@ -16,7 +16,7 @@ var friendOptions = [{
 },
 {
   "name": "Patrick Star",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/patrickstar.png",
+  "photo": "https://vignette.wikia.nocookie.net/spongebob/images/5/5d/Patrick_stock_art.png/revision/latest?cb=20181202012306",
   "scores": [
       1,
       5,
@@ -32,7 +32,7 @@ var friendOptions = [{
 },
 {
   "name": "Squidward Tentacles",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/squidward.png",
+  "photo": "https://vignette.wikia.nocookie.net/spongebob/images/0/05/Squidward_stock_art.png/revision/latest?cb=20190921125123",
   "scores": [
       2,
       3,
@@ -47,8 +47,8 @@ var friendOptions = [{
   ]
 },
 {
-  "name": "Plankton",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/plankton.png",
+  "name": "Sheldon J. Plankton",
+  "photo": "https://vignette.wikia.nocookie.net/spongebob/images/7/77/Plankton_stock_art.png/revision/latest?cb=20181202012432",
   "scores": [
       3,
       3,
@@ -63,8 +63,8 @@ var friendOptions = [{
   ]
 },
 {
-  "name": "Mr. Krabs",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/mrkrabs.png",
+  "name": "Eugene H. Krabs",
+  "photo": "https://vignette.wikia.nocookie.net/spongebob/images/7/7b/Krabs_artwork.png/revision/latest?cb=20181201224233",
   "scores": [
       3,
       3,
@@ -79,8 +79,8 @@ var friendOptions = [{
   ]
 },
 {
-  "name": "Sandy Cheeks",
-  "photo": "C:/Users/stotz/github_repo/Homework/chum-bucket/app/public/assets/img/sandycheeks.png",
+  "name": "Sandra Jennifer Cheeks",
+  "photo": "https://vignette.wikia.nocookie.net/spongebob/images/8/84/Sandy_stock_art.png/revision/latest?cb=20181202012358",
   "scores": [
       4,
       3,
