@@ -5,32 +5,26 @@
 Chum Bucket is a friend finder app. Answer a few simple questions and Chum Bucket will match you with a new friend.
 
 ##### Chum Bucket Overview
-* 1. server.js 
-  * Sets up our app to use express and to listen at a port. It also requires the next two files for use.
-
-* 2. htmlRoutes.js
-  * Sets up the paths to get to the various html pages used. 
-
-* 3. apiRoutes.js
-  * Where the compatibility logic lives; uses a GET to get our friend data as a json object. Uses a POST to work through the compatibility logic and return the best match for the user.
-
-* 4. friend.js
-  * Holds an array of friend objects so that the user has some options to match to.
-
-* 5. home.html
-  * Initial landing page.
-
-* 6. quiz.html
-  * The page that holds the quiz. Logic at the bottom adds the information from our /api/friends link to match the user with a friend. 
-
-* 7. style.css
-  * Stylesheet.
-
-* 8. reset.css
-  * Resets any style that the browser might have preloaded. 
+* server.js (Sets up our app to use express and to listen at a port. It also requires the next two files for use.)
+* package.json
+* package-lock.json
+* app
+  * data
+    * friend.js (Holds an array of friend objects so that the user has some options to match to.)
+  * public
+    * assets
+      * css
+        * style.css (Main stylesheet.)
+        * reset.css (Resets any style that the browser might have preloaded. )
+      * img
+    * home.html (Initial landing page.)
+    * quiz.html (The page that holds the quiz. Logic at the bottom adds the information from our /api/friends link to match the user with a friend.)
+  * routes
+    * htmlRoutes.js (Sets up the paths to get to the various html pages used.)
+    * apiRoutes.js (Where the compatibility logic lives; uses a GET to get our friend data as a json object. Uses a POST to work through the compatibility logic and return the best match for the user.)
 
 ##### Instructions to Run the App
-* Hosted on Heroku here:
+* Hosted on Heroku here: https://immense-wave-93212.herokuapp.com/home
 
 * OR clone the file from github. (https://github.com/emmastotz/chum-bucket)
 * Install all dependencies needed to run the program ("npm install").
